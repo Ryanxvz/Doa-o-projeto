@@ -1,0 +1,46 @@
+*{
+    max-width: 100%;
+    padding: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 120px;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li {
+    list-style: none;
+    align-items: center;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
+}
+
+
+
+.ajuda {
+    padding-left: 20px; 
+}
+
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 3vh;
+    font-family: sans-serif;
+    margin-top: 12vh;
+}
